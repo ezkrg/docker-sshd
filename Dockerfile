@@ -10,4 +10,4 @@ EXPOSE 22
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 
-CMD [ "/usr/sbin/sshd", "-D", "-E", "/var/log/sshd.log" ]
+CMD [ "/usr/sbin/sshd", "-D", "-e" ]
